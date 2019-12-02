@@ -1,0 +1,44 @@
+.search {
+    width: 100%;
+    max-width: 410px;
+    margin-top: 40px;
+    font-size: 0;
+
+    @media screen and (min-width: $screen-md) {
+        margin-top: $margin-lg;
+    }
+
+    &__field {
+        margin: 0 20px;
+
+        @media screen and (min-width: $screen-sm) {
+            margin: 0;
+        }
+    }
+
+}
+
+.search-field__left, .search-field__right {
+    display: inline-block;
+}
+
+.search-field__left {
+    width: 100%;
+    max-width: 320px;
+
+    @media screen and (min-width: $screen-sm) {
+        width: 62%;
+        text-align: left;
+    }
+}
+
+.search-field__right {
+    width: 100%;
+    margin-top: 10px;
+
+    @media screen and (min-width: $screen-sm) {
+        width: 38%;
+        margin-top: 0;
+        text-align: right;
+    }
+}

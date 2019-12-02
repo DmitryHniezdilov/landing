@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.body__inner {
+    width: 100%;
+    overflow: hidden;
+    background: $color-primary;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}

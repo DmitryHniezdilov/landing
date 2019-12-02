@@ -1,0 +1,33 @@
+.promo {
+    width: 100%;
+    padding: 20px 0 140px;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../img/promo.jpg) no-repeat center bottom;
+    background-size: cover;
+    font-size: 0;
+
+    @media screen and (min-width: $screen-md) {
+        padding: 40px 50px 235px;
+    }
+
+    &__top {
+        margin-bottom: 40px;
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 940px;
+
+        @media screen and (min-width: $screen-md) {
+            margin: 0 auto;
+            flex-flow: row-reverse wrap;
+            justify-content: space-between;
+        }
+    }
+
+    &__center {
+
+        padding: 0 10px;
+
+        @media screen and (max-width: $screen-md) {
+            width: 320px;
+        }
+    }
+}

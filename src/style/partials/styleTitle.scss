@@ -1,0 +1,125 @@
+.title__h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    @include font($font-main, 30px, $color-primary);
+
+    @media screen and (min-width: $screen-md) {
+        font-size: 50px;
+    }
+}
+
+.title__h2 {
+    font-weight: bold;
+    @include font($font-main, 22px, $color-secondary);
+}
+
+.title__h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    @include font($font-main, 24px, $color-primary);
+    text-decoration: none;
+}
+
+.title__h4 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    @include font($font-main, $font-size--regular, $color-secondary);
+    line-height: 1.2;
+}
+
+.title__h5 {
+    font-weight: bold;
+    @include font($font-main, 22px, $color-primary);
+    z-index: 999;
+    background: transparent;
+}
+
+.title__h6 {
+    font-weight: bold;
+    @include font($font-main, $font-size--regular, $color-secondary);
+}
+
+.title__desc {
+    display: inline-block;
+    width: 100%;
+    margin-top: 18px;
+    font-weight: 300;
+    @include font($font-secondary, 18px, $color-primary);
+
+    @media screen and (min-width: $screen-md) {
+        font-size: 24px;
+    }
+
+    &__br {
+        @media screen and (min-width: $screen-md) {
+            display: none;
+        }
+    }
+
+    &--slick {
+        margin: 0;
+        display: inline-block;
+        height: 51px;
+        overflow: hidden;
+        font-weight: 300;
+        @include font($font-secondary, $font-size--regular, $color-primary);
+    }
+
+    &--partner {
+        font-weight: 300;
+        @include font($font-secondary, $font-size--regular, $color-secondary);
+    }
+
+    &--search {
+        margin: 13px 0 15px;
+        color: $color-secondary;
+    }
+}
+
+.title__home {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    @include font($font-main, 20px, $color-primary);
+
+    &:hover {
+        @include hover($color-hover);
+    }
+
+    @media screen and (min-width: $screen-md) {
+        margin-top: 9px;
+    }
+
+    &--footer {
+        font-size: 16px;
+        color: $color-btn;
+
+        @media screen and (min-width: $screen-md) {
+            margin-top: 0;
+        }
+    }
+
+    :hover {
+        @include hover(rgb(220, 60, 70));
+    }
+}
+
+.title__list {
+    text-decoration: none;
+    @include font($font-secondary, $font-size--regular, $color-DoveGray);
+
+    &:hover {
+        @include hover($color-secondary);
+        font-weight: bold;
+    }
+}
+
+.title__dev {
+    display: inline-block;
+    margin-bottom: 7px;
+    text-decoration: none;
+    @include font($font-secondary, 10px, $color-text);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}

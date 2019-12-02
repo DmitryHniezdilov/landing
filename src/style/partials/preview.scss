@@ -1,0 +1,41 @@
+.preview{
+    width: 100%;
+    margin-top: $margin-md;
+    text-align: center;
+    font-size: 0;
+
+
+    @media screen and (min-width: $screen-md) {
+        margin-top: $margin-lg;
+
+    }
+
+
+
+    &__inner {
+        max-width: 400px;
+        margin: 15px auto 0;
+        padding: 0 10px;
+
+        @media screen and (min-width: $screen-md) {
+            max-width: none;
+            margin: 30px auto 0;
+            padding: 0;
+        }
+    }
+
+    &__slide {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 10px;
+
+        @media screen and (min-width: $screen-md) {
+            width: 33.33%;
+            padding: 0 10px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

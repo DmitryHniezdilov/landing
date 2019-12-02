@@ -1,0 +1,37 @@
+.reg {
+    margin-bottom: 115px;
+    font-size: 0;
+
+    &__logIn {
+        display: inline-block;
+        margin-right: 18px;
+        font-size: 0;
+    }
+
+    &__singUp {
+        display: inline-block;
+        padding: 10px 16px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: $color-primary;
+        border-radius: 18px;
+        font-size: 0;
+
+        &:hover {
+            border-color: $color-hover;
+            transition: .6s;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        font-weight: 700;
+        text-decoration: none;
+        @include font($font-main, $font-size--regular, $color-primary);
+
+        &:hover {
+            @include hover($color-hover);
+        }
+    }
+
+}

@@ -4,13 +4,9 @@
     text-align: center;
     font-size: 0;
 
-
     @media screen and (min-width: $screen-md) {
         margin-top: $margin-lg;
-
     }
-
-
 
     &__inner {
         max-width: 400px;
@@ -28,6 +24,7 @@
         display: inline-block;
         width: 100%;
         margin-bottom: 10px;
+        padding: 0;
 
         @media screen and (min-width: $screen-md) {
             width: 33.33%;

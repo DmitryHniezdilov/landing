@@ -1,3 +1,5 @@
+@import 'slider/slick';
+@import 'slider/slick-theme';
 @import 'partials/variables';
 @import 'partials/mixins';
 @import 'partials/common';
@@ -6,7 +8,7 @@
 @import 'partials/reg';
 @import 'partials/elements';
 @import 'partials/content';
-@import 'partials/slick';
+@import 'partials/slick-settings';
 @import 'partials/preview';
 @import 'partials/partner';
 @import 'partials/services';

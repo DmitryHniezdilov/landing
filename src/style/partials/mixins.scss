@@ -6,5 +6,5 @@
 
 @mixin hover($color-hover) {
     color: $color-hover;
-    transition: .6s;
+    transition: all .6s;
 }

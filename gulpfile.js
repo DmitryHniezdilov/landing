@@ -51,32 +51,20 @@ function scss(done) {
     done();
 }
 
-// Concatenate .js to .min.js
+// create all.min.js
 
 function js(done) {
     gulp.src([
-        'src/js/main.js'
-    ])
-        .pipe(concat('main.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('build/js'));
-
-    done();
-}
-
-// copy slick.js
-
-function slick(done) {
-    gulp.src([
         'src/js/slick.min.js',
+        'src/js/main.js',
         'src/js/request.js'
+
     ])
+        .pipe(concat('all.min.js'))
         .pipe(gulp.dest('build/js'));
 
     done();
 }
-
-
 
 // reload html,js
 
@@ -124,11 +112,10 @@ gulp.task('clean', function (done) {
     done();
 });
 
-// Build Production Site with all updates
+// Build Production Site with all updates slick
 
-gulp.task('build', gulp.series('clean', scss, js, slick, img));
+gulp.task('build', gulp.series('clean', scss, js, img));
 
 // Watch for all file changes during work
 
 gulp.task('default', gulp.parallel(scss, browser_sync, watch_all));
-

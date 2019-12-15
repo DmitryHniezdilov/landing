@@ -1,4 +1,4 @@
-.title__h1 {
+h1, .title__h1 {
     font-weight: bold;
     text-transform: uppercase;
     @include font($font-main, 30px, $color-primary);
@@ -8,33 +8,33 @@
     }
 }
 
-.title__h2 {
+h2, .title__h2 {
     font-weight: bold;
     @include font($font-main, 22px, $color-secondary);
 }
 
-.title__h3 {
+h3, .title__h3 {
     margin-bottom: 10px;
     font-weight: bold;
     @include font($font-main, 24px, $color-primary);
     text-decoration: none;
 }
 
-.title__h4 {
+h4, .title__h4 {
     margin-bottom: 20px;
     font-weight: bold;
     @include font($font-main, $font-size--regular, $color-secondary);
     line-height: 1.2;
 }
 
-.title__h5 {
+h5, .title__h5 {
     font-weight: bold;
     @include font($font-main, 22px, $color-primary);
     z-index: 999;
     background: transparent;
 }
 
-.title__h6 {
+h6, .title__h6 {
     font-weight: bold;
     @include font($font-main, $font-size--regular, $color-secondary);
 }

@@ -16,29 +16,20 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap&subset=cyrillic" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="build/css/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="build/css/slick-theme.min.css"/>
-
     <link rel="stylesheet" lang="" href="build/css/main.min.css">
 
-    <script src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
-
-    <script type="text/javascript" src="build/js/slick.min.js"></script>
-    <script type="text/javascript" src="build/js/main.min.js"></script>
 </head>
 <body>
-<div class="body__inner">
+<div class="wrapper">
     <!--/*promo-header*/-->
     <div class="promo">
 
         <div class="center promo__top">
             <div class="reg">
-                <div class="reg__logIn">
-                    <a class="reg__link" title="Log in" href="#">Log in</a>
-                </div>
-                <div class="reg__singUp">
-                    <a class="reg__link" title="Sign up" href="#">Sign up</a>
-                </div>
+                    <button class="reg--logIn reg__link" title="Log in" name="login">Log in</button>
+
+                    <button class="reg--singUp reg__link" title="Sign up" name="signup">Sign up</button>
+
             </div>
             <div class="promo-top__home">
                 <a class="title__home" title="SURLAUBSGLÜCK" href="#">URLAUBSGLÜCK</a>
@@ -359,13 +350,14 @@
                                 <span class="title__dev">
                                     Designed by
                                 </span>
-                    <img src="/build/img/dev_logo.png" alt="areto development">
+                    <img src="build/img/dev_logo.png" alt="areto development">
                 </a>
             </div>
         </div>
     </footer>
 
 </div>
-<script type="text/javascript" src="build/js/request.js"></script>
+<script src="https://code.jquery.com/jquery-2.x-git.min.js"></script>
+<script type="text/javascript" src="build/js/all.min.js"></script>
 </body>
 </html>

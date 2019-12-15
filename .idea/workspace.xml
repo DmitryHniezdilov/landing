@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1f35a1-264f-4931-bd18-adbb5ec484a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/style/partials/slick-settings.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/slick-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/slick-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/slick.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/slick.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/slick.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/elements.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/reg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/reg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/slick.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/partials/styleTitle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/styleTitle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/slick-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/slider/slick-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/slick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/slider/slick.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,8 +47,8 @@
       <file leaf-file-name="request.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/request.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -214,12 +189,12 @@
       <workItem from="1575485065398" duration="341000" />
       <workItem from="1576266966369" duration="8351000" />
       <workItem from="1576304014187" duration="2191000" />
-      <workItem from="1576427942763" duration="11673000" />
+      <workItem from="1576427942763" duration="12506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24225000" />
+    <option name="totallyTimeSpent" value="25058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -234,7 +209,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2863248" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2863248" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -525,8 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="118" column="23" lean-forward="true" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
         </state>
       </provider>
     </entry>

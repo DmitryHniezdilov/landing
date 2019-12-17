@@ -5,7 +5,7 @@
     border: 0;
 }
 
-*:focus{
+*:focus {
     outline: none;
     outline-offset: 0;
     box-shadow: 0 0 2px 2px rgb(102, 102, 102);
@@ -19,5 +19,6 @@
 
 .center {
     margin: 0 auto;
+    padding: 0 14px;
     text-align: center;
 }

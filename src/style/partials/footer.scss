@@ -11,6 +11,14 @@
         padding: 35px 40px 40px;
     }
 
+    &__inner {
+        max-width: 940px;
+    }
+
+    &__wrap {
+        padding: 0 15px;
+    }
+
     &__item {
         margin-top: 5px;
     }
@@ -18,10 +26,6 @@
     &__list {
         list-style: none;
         padding: 0 5px;
-
-        &:last-child {
-            margin-right: 0;
-        }
 
         @media screen and (min-width: $screen-md) {
             width: 100%;
@@ -34,14 +38,11 @@
         text-align: center;
         text-decoration: none;
 
-        &:hover img{
+        &:hover img {
             background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
             transition: .6s;
         }
 
-
     }
-
-
 
 }

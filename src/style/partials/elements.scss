@@ -60,6 +60,12 @@
         text-transform: uppercase;
     }
 
+    &--mt0 {
+        @media screen and (min-width: $screen-sm) {
+            margin-top: 0;
+        }
+    }
+
 }
 
 .btn--hover {
@@ -88,7 +94,7 @@
     }
 
     @media screen and (min-width: $screen-sm) {
-        width: 240px;
+        width: auto;
     }
 
 }
@@ -106,42 +112,42 @@
     flex-flow: row wrap;
     text-align: center;
     justify-content: space-around;
-    width: 100%;
-    max-width: 940px;
-    padding: 0 15px;
+    margin: 0 -15px;
 
     @media screen and (min-width: $screen-md) {
         text-align: left;
-        padding: 0;
     }
 
     .col {
         flex: 0 0 100%;
-        margin: 15px 0 0;
+        padding: 0 15px;
         max-width: 410px;
 
-        &:first-child {
-            margin: 0;
-        }
-
         @media screen and (min-width: $screen-md) {
-            margin: 0;
-            padding-right: 20px;
-            flex: 0 0 28%;
+            flex: 0 0 25%;
+            padding: 0 15px;
 
             &:last-child {
-                flex: 0 0 16%;
-                padding-right: 0;
                 text-align: right;
             }
         }
 
-        &__mirror {
+        &--mirror {
             flex: 0 0 auto;
 
             @media screen and (min-width: $screen-md) {
                 flex: 0 0 100%;
             }
         }
+
+    }
+
+    .col + .col {
+        margin-top: 15px;
+
+        @media screen and (min-width: $screen-md) {
+            margin-top: 0;
+        }
+
     }
 }

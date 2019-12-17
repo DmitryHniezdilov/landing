@@ -24,17 +24,16 @@
 
 .search-field__left {
     width: 100%;
-    max-width: 320px;
+    max-width: 340px;
 
     @media screen and (min-width: $screen-sm) {
-        width: 62%;
+        width: 55%;
         text-align: left;
     }
 }
 
 .search-field__right {
     width: 100%;
-    margin-top: 10px;
 
     @media screen and (min-width: $screen-sm) {
         width: 38%;

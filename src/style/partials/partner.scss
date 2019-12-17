@@ -8,32 +8,37 @@
         margin-top: $margin-lg;
     }
 
-    &__list {
+    &__inner {
         max-width: 500px;
         margin: 0 auto;
-        display: flex;
-        flex-flow: column wrap;
-
-        @media screen and (min-width: $screen-sm) {
-                flex-flow: row wrap;
-                justify-content: space-evenly;
-            }
 
         @media screen and (min-width: $screen-lg) {
             max-width: none;
         }
     }
 
+    &__list {
+        margin: 0 -7px;
+        display: flex;
+        flex-flow: column wrap;
+        Align-items: center;
+
+        @media screen and (min-width: $screen-sm) {
+                flex-flow: row wrap;
+                justify-content: space-evenly;
+            }
+    }
+
     &__item {
         width: 70%;
-        margin: 15px auto;
+        margin-top: 15px;
+        padding: 0 7px;
         text-align: center;
         list-style: none;
 
         @media screen and (min-width: $screen-sm) {
             width: auto;
-            flex: 0 0 48%;
-            margin-bottom: 2%;
+            flex: 0 0 50%;
         }
 
         @media screen and (min-width: $screen-md) {
@@ -41,7 +46,7 @@
         }
 
         @media screen and (min-width: $screen-lg) {
-            flex: 0 0 24%;
+            flex: 0 0 25%;
         }
 
     }

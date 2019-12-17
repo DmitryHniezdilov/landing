@@ -8,8 +8,16 @@
         margin-top: $margin-lg;
     }
 
+    &__wrap {
+        margin-top: 15px;
+
+        @media screen and (min-width: $screen-md) {
+            margin-top: 30px;
+        }
+    }
+
     &__list {
-        margin: 0 -7px;
+        margin: -7px -7px;
         display: flex;
         flex-flow: column wrap;
 
@@ -20,14 +28,12 @@
 
         @media screen and (min-width: $screen-md) {
             justify-content: space-between;
-            margin-top: 30px;
         }
     }
 
     &__item {
-        height: 120px;
-        margin-top: 14px;
-        padding: 0 7px;
+        //margin-top: 14px;
+        padding: 7px 7px;
 
         @media screen and (min-width: $screen-sm) {
             flex: 0 0 50%;
@@ -35,7 +41,6 @@
 
         @media screen and (min-width: $screen-md) {
             flex: 0 0 33.33%;
-            height: 310px;
         }
 
         &--2width {
@@ -61,17 +66,21 @@
     }
 
     &__link {
+        height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
-        height: inherit;
         width: 100%;
         border-radius: 4px;
         font-size: 0;
         text-decoration: none;
         overflow: hidden;
         cursor: pointer;
+
+        @media screen and (min-width: $screen-md) {
+            height: 310px;
+        }
     }
 
     &__inner {

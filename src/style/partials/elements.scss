@@ -135,9 +135,6 @@
         &--mirror {
             flex: 0 0 auto;
 
-            @media screen and (min-width: $screen-md) {
-                flex: 0 0 100%;
-            }
         }
 
     }

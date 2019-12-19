@@ -16,19 +16,25 @@
     }
 
     &__wrap {
-        padding: 0 15px;
+        padding: 0 15px 0 0;
     }
 
     &__item {
         margin-top: 5px;
+        width: 100%;
     }
 
     &__list {
+        display: inline-block;
         list-style: none;
-        padding: 0 5px;
+        padding: 0 10px 0 0;
 
         @media screen and (min-width: $screen-md) {
-            width: 100%;
+            display: block;
+        }
+
+        &:last-child {
+            padding: 0;
         }
     }
 

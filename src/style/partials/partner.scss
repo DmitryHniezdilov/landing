@@ -24,9 +24,9 @@
         Align-items: center;
 
         @media screen and (min-width: $screen-sm) {
-                flex-flow: row wrap;
-                justify-content: space-evenly;
-            }
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+        }
     }
 
     &__item {

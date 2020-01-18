@@ -73,12 +73,18 @@ getRequest.addEventListener("click", function(){
                             ColInnerLast = ColInner[ColInner.length - 1];
 
                         ColInnerLast.innerHTML = '<img src="' + pathSrc + '" alt="' + pathAlt + '" class="services__img" />'
+
                     }
+
+                    /* скролл в начало блока с картинками */
+
+                    let toTop = document.getElementById("js-toTop");
+                    toTop.scrollIntoView({block: "start", behavior: "smooth"});
 
                 } else {
 
                     let form = document.getElementById("form1");
-                    form.insertAdjacentHTML("beforeend", '<span class="js-errorRequest title__home title__home--footer">По данному запросу нет изображений...</span>' );
+                    form.insertAdjacentHTML("beforeend", '<span class="js-errorRequest title_home title_home-footer">По данному запросу нет изображений...</span>' );
                 }
 
             } else {
@@ -188,12 +194,17 @@ document.getElementById("input1").addEventListener('keydown', function(e) {
                                 ColInnerLast = ColInner[ColInner.length - 1];
 
                             ColInnerLast.innerHTML = '<img src="' + pathSrc + '" alt="' + pathAlt + '" class="services__img" />'
+
+                            /* скролл в начало блока с картинками */
+
+                            let toTop = document.getElementById("js-toTop");
+                            toTop.scrollIntoView({block: "start", behavior: "smooth"});
                         }
 
                     } else {
 
                         let form = document.getElementById("form1");
-                        form.insertAdjacentHTML("beforeend", '<span class="js-errorRequest title__home title__home--footer">По данному запросу нет изображений...</span>' );
+                        form.insertAdjacentHTML("beforeend", '<span class="js-errorRequest title_home title_home-footer">По данному запросу нет изображений...</span>' );
                     }
 
                 } else {

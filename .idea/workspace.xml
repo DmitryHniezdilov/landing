@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1f35a1-264f-4931-bd18-adbb5ec484a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/js/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/request.js" afterDir="false" />
-    </list>
+    <list default="true" id="8a1f35a1-264f-4931-bd18-adbb5ec484a5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -44,8 +42,8 @@
           <file leaf-file-name="styleTitle.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/style/partials/styleTitle.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="137">
-                  <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+                <state relative-caret-position="1890">
+                  <caret line="101" selection-start-line="101" selection-end-line="101" />
                 </state>
               </provider>
             </entry>
@@ -75,8 +73,8 @@
           <file leaf-file-name="request.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/js/request.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="-4086">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                   <folding>
                     <marker date="1579374170933" expanded="false" signature="1225:1232" ph="..." />
                   </folding>
@@ -139,11 +137,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-15" />
-    <option name="width" value="1045" />
-    <option name="height" value="1040" />
-  </component>
+  <component name="ProjectId" id="1WlTnUaRbMdoqppPuaC9Lto7g6s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,7 +165,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_2_store" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -217,19 +211,19 @@
       <workItem from="1577041459559" duration="2027000" />
       <workItem from="1577125597425" duration="633000" />
       <workItem from="1577643630732" duration="1106000" />
-      <workItem from="1579352089909" duration="7350000" />
+      <workItem from="1579352089909" duration="7803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58530000" />
+    <option name="totallyTimeSpent" value="58983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15664244" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15664244" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -237,7 +231,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2863248" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19088319" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -594,15 +588,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/style/partials/styleTitle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="1890">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-4086">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <marker date="1579374170933" expanded="false" signature="1225:1232" ph="..." />
           </folding>

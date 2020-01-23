@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1f35a1-264f-4931-bd18-adbb5ec484a5" name="Default" comment="">
+    <list default="true" id="8a1f35a1-264f-4931-bd18-adbb5ec484a5" name="Default" comment="check search__field to flex">
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/partials/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/partials/search.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,9 +66,21 @@
       <workItem from="1577643630732" duration="1106000" />
       <workItem from="1579352089909" duration="7803000" />
     </task>
+    <task id="LOCAL-00001" summary="check search__field to flex">
+      <created>1579811921245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579811921245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="check search__field to flex" />
+    <option name="LAST_COMMIT_MESSAGE" value="check search__field to flex" />
   </component>
 </project>

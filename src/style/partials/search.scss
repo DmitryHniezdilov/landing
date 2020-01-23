@@ -11,11 +11,18 @@
     &__field {
         width: 100%;
         padding: 0;
+
+        @media screen and (min-width: $screen-sm) {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+        }
     }
 }
 
 .search-field__left, .search-field__right {
     display: inline-block;
+    font-size: 0;
 }
 
 .search-field__left {
@@ -24,7 +31,6 @@
 
     @media screen and (min-width: $screen-sm) {
         width: 55%;
-        text-align: left;
     }
 }
 
@@ -33,7 +39,5 @@
 
     @media screen and (min-width: $screen-sm) {
         width: 38%;
-        margin-top: 0;
-        text-align: right;
     }
 }

@@ -9,10 +9,10 @@ const sendRequest = () => {
     if (inputLenght >= 3 && inputLenght < 21) { /* условие на длину запроса*/
 
         /* замена пробела на + */
-        let valueInputRequest = document.getElementById("input1").value.replace(/ /g, '+');
+        const valueInputRequest = document.getElementById("input1").value.replace(/ /g, '+');
 
         /* сборка запроса */
-        let outputRequest = 'https://pixabay.com/api/?key=14466891-825cbc5bd7840ef3d724d53b3&q=' + valueInputRequest + '&image_type=photo';
+        const outputRequest = 'https://pixabay.com/api/?key=14466891-825cbc5bd7840ef3d724d53b3&q=' + valueInputRequest + '&image_type=photo';
 
         // console.log('outputRequest', outputRequest);
 
@@ -25,22 +25,19 @@ const sendRequest = () => {
 
         /* запрос */
 
-        let request = new XMLHttpRequest();
-        request.open('GET', outputRequest, true);
+        const getResourse = async (url) => {
+            const res = await fetch(url);
 
-        request.onload = function () {
+            if (!res.ok) {
+                throw new Error(`Could not fetch ${url}` + `, received ${res.status}`)
+            }
+            const body = await res.json();
+            return body;
+        };
 
-            if (this.status >= 200 && this.status < 400) {
-                // Success!
-                let data = JSON.parse(this.response);
-
-                // console.log('data', data);
-                // console.log('data-totalHits', data.totalHits);
-                // console.log('data_url', data.hits[3].webformatURL);
-
-                /*проверка на длину массива элементов */
-
-                if (data.totalHits >= 6) {
+        getResourse(outputRequest)
+            .then((body) => {
+                if (body.totalHits >= 6) {
 
                     /* дом - элементы */
 
@@ -63,8 +60,8 @@ const sendRequest = () => {
 
                         // console.log('data_url', data.hits[i].webformatURL);
 
-                        let pathSrc = data.hits[i].webformatURL.toString();
-                        let pathAlt = data.hits[i].tags.toString();
+                        let pathSrc = body.hits[i].webformatURL.toString();
+                        let pathAlt = body.hits[i].tags.toString();
 
                         let ColInner = document.querySelectorAll('.services__inner'),
                             ColInnerLast = ColInner[ColInner.length - 1];
@@ -83,33 +80,11 @@ const sendRequest = () => {
                     let form = document.getElementById("form1");
                     form.insertAdjacentHTML("beforeend", '<span class="js-errorRequest title_home title_home-footer">По данному запросу нет изображений...</span>');
                 }
+            });
 
-            } else {
-                // We reached our target server, but it returned an error
-                // console.log('error');
 
-                let inputStyle = document.getElementById("input1");
-                inputStyle.classList.add('js-inputError');
-                inputStyle.setAttribute('title', "don't have a request");
+    };
 
-                let form = document.getElementById("form1");
-                form.insertAdjacentHTML("beforeend", '<span class="js-errorRequest title__home title__home--footer">Не получен ответ от сервера...</span>');
-
-            }
-        };
-
-        request.onerror = function () {
-            // There was a connection error of some sort
-        };
-
-        request.send();
-
-    } else {
-
-        let inputStyle = document.getElementById("input1");
-        inputStyle.classList.add('js-inputError');
-
-    }
 };
 
 //request btn
